@@ -1,0 +1,50 @@
+
+LAB 2
+
+1. Create a new repo in GitHub. Name IronNadin
+
+2. Clone that repo to your computer
+
+	(base) steib@Steibs-MBP lab2 % git clone https://github.com/nadbrunn3/IronNadin.git
+
+3. Create a file in that folder. Name it about.txt and add a fun fact about yourself. (You can use the command line: touch nameOfTheFile.txt). 
+
+4. Add and commit the changes to git
+
+	(base) steib@Steibs-MBP lab2 % touch aboutNadin.txt
+
+	(base) steib@Steibs-MBP lab2 % git add aboutNadin.txt
+
+	(base) steib@Steibs-MBP lab2 % git commit -m "Created a new file"
+
+	(base) steib@Steibs-MBP lab2 % echo "Hi there! .....e" >> aboutNadin.txt
+
+	(base) steib@Steibs-MBP lab2 % git add aboutNadin.txt
+
+	(base) steib@Steibs-MBP lab2 % git commit -m "Added a fun fact of myself to the file"
+
+5. Push the changes to the GitHub and check your repository to make sure everything is there.
+
+	(base) steib@Steibs-MBP lab2 % git remote add origin https://github.com/nadbrunn3/	IronNadin.git
+
+	(base) steib@Steibs-MBP lab2 % git push origin master
+
+
+PAIR Programming Exercise: 
+
+1. Fork your classmate's repository.
+
+2. Clone the repository, so that you have it locally and can make changes.
+
+3. Create a new branch named classmate.
+
+4. Create a new file with your name (ex. maya.txt) and finish the following sentence I enrolled Ironhack's Data Analytics bootcamp because.... When you are done, save the changes.
+
+5. Add the changes to the git.
+
+6. Commit and push the changes. Now, all the changes should be on your GitHub, inside the forked repository.
+
+7. Create a pull request to make changes appear in the original repository.
+
+8. Merge the branch your classmate created. Now everyone's repos should have the original file (about.txt) as well as the new one with your classmate's name.
+
